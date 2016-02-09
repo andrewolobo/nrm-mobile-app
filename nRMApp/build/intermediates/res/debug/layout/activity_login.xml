@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6A828"
+    tools:context="com.adeline.tush.nrm.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/fb_icon" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Andrew/StudioProjects/NRMApp/nRMApp/src/main/res/layout/activity_login.xml -->

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adeline.tush.nrm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+    <uses-feature android:name="android.hardware.touchscreen" />
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.adeline.tush.nrm.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adeline.tush.nrm.NavigationActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adeline.tush.nrm.CommentsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adeline.tush.nrm.EventActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.adeline.tush.nrm.NewsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adeline.tush.nrm.ManifestoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adeline.tush.nrm.RegionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adeline.tush.nrm.SectorActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adeline.tush.nrm.TargetActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.adeline.tush.nrm.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

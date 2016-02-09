@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#F6A828"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:background="#CCCCCC"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="3dp"
+                    android:text="NRM Mobile APP"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="2dp"
+                android:text="Welcome to the NRM Mobile APP. This will allow you to view event, activities, the manifesto as well as share with other party supporters. Please use the navigation list below to navigate through the application. "
+                android:textColor="#FFF"
+                android:textSize="9sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7.5dp"
+        android:layout_marginTop="7.5dp"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/county_ico" />
+
+        <LinearLayout
+            android:id="@+id/news"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:text="NEWS FEED"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#999999" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Get the latest news and information from the NRM Party. Support your party online. Stay Informed with the latest events"
+                android:textSize="8sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#999999" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:paddingTop="5dp" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7.5dp"
+                        android:layout_marginTop="7.5dp"
+                        android:orientation="horizontal"
+                        android:padding="8dp" >
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/manifesto" />
+
+                        <LinearLayout
+                            android:id="@+id/manifesto_linear"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:orientation="vertical"
+                            android:padding="2dp" >
+
+                            <TextView
+                                android:id="@+id/manifesto"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="2dp"
+                                android:text="MANIFESTO"
+                                android:textSize="16sp" />
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#999999" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="View the NRM Manifesto. View what the party is looking to improve in your community. Support your leaders lead you to a brighter future"
+                                android:textSize="8sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#999999" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7.5dp"
+                        android:layout_marginTop="7.5dp"
+                        android:orientation="horizontal"
+                        android:padding="8dp" >
+
+                        <ImageView
+                            android:id="@+id/imageView112"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/search" />
+
+                        <LinearLayout
+                            android:id="@+id/events"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:orientation="vertical"
+                            android:padding="2dp" >
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="2dp"
+                                android:text="EVENTS"
+                                android:textSize="16sp" />
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#999999" />
+
+                            <TextView
+                                android:id="@+id/textView45"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="View the latest NRM Event happening around you. This shows a list of events, locations and dates they are happening."
+                                android:textSize="8sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="#999999" />
+
+                    <LinearLayout
+                        android:id="@+id/sectors"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7.5dp"
+                        android:layout_marginTop="7.5dp"
+                        android:orientation="horizontal"
+                        android:padding="8dp" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/city_scape" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:orientation="vertical"
+                            android:padding="2dp" >
+
+                            <TextView
+                                android:id="@+id/textView35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="2dp"
+                                android:text="SECTORS"
+                                android:textSize="16sp" />
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.5dp"
+                                android:background="#999999" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="Search for NRM news and Events happening near you. "
+                                android:textSize="8sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Andrew/StudioProjects/NRMApp/nRMApp/src/main/res/layout/activity_navigation.xml -->

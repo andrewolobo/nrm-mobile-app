@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Andrew\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Andrew\StudioProjects\NRMApp\nRMApp\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b584ee39d3d06258048f095b76074bc101d81898.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrew\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.1\d8e711ae108185c59c17b36b3c3f11b20cf9b4d5\gson-2.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d8e711ae108185c59c17b36b3c3f11b20cf9b4d5">
+        <dex dex="C:\Users\Andrew\StudioProjects\NRMApp\nRMApp\build\intermediates\pre-dexed\debug\gson-2.2.1-c50bb4d56d90a85df9b320d03d8cc982fbe949ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrew\StudioProjects\NRMApp\nRMApp\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\Andrew\StudioProjects\NRMApp\nRMApp\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-b4ba1aa03a66dbe24d4803e9ea78604a438b90be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrew\StudioProjects\NRMApp\nRMApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\Andrew\StudioProjects\NRMApp\nRMApp\build\intermediates\pre-dexed\debug\classes-122a0396765bac0747faa6516036e2fd217b8bc5.jar" />
+    </item>
+
+</items>
